@@ -1,0 +1,10 @@
+#ignore all object files
+*.o
+
+#except the two original object files
+!primeFactorisation-BestStudent.o
+!primeFactorisation-Reference.o
+
+#ignore all executable files
+*.exe
+

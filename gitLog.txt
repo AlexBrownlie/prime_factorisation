@@ -1,0 +1,121 @@
+commit c1568b06e351de3cb0738241508896f697634738
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 16:51:05 2018 +0000
+
+    Initial explanation of my algorithm in a plain text file. Not very well explained and needs to be improved.
+
+commit 457a803261eb36aa05bf3299db1f903442879b13
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 16:25:24 2018 +0000
+
+    Added comment to describe optimisation made from previous code.
+
+commit 29a5ec364acc39623d0d745f6c0c59a5e80f23d6
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 16:20:01 2018 +0000
+
+    Added more variables to the makefile to reduce repetition and make it easier to read. It will also be easier to implement new rules in the future using the provided variables.
+
+commit 94d264565014d0bdadf5f094a718f0ac88dbc092
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 15:44:52 2018 +0000
+
+    Committing the .gitignore file, which prevents any object and executable files being committed (unless forced) other than the two object files provided at the start.
+
+commit 8a26c83fc024781dd66592358d6da1eea65bbb8f
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 15:34:35 2018 +0000
+
+    primeFactorisation.cpp file changes committed. Did not upload with the  previous commit.
+
+commit d6132984a03b26e1b731dba2b981fa6cb9bb09b9
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 15:28:34 2018 +0000
+
+    Added in comments for c++ file so it is easier to read/understand the algorithm. Other minor changes which don't alter functionality. Also changed test files so that the header file can be used by other computers. Before I changed this the pathway was unique to the network I was using.
+
+commit 55d2c2a7154b9d7687e7db334e95c8a69952ff5a
+Merge: d69e72d b019ecd
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Dec 6 15:01:20 2018 +0000
+
+    Changed prime factorisation file completely. Previous implementation was far too slow and unoptimised. New implementation runs on par with reference implementation. Makefile has been changed to allow creation of timing and correctness test files for the new implementation.
+
+commit b019ecdf220d7665c57a3191043ecdb4d33c0401
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 13:27:49 2018 +0000
+
+    Improved function: can now display the prime factors of prime numbers. Changed the primeNumbers function to return a list of prime numbers up to the given value itself. Thus if the given value is a prime number the implementation will still work.
+
+commit a5b11f74726ed2a7080cf91774a738445524b53f
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 13:09:50 2018 +0000
+
+    Changed function so that it returns a list of 'unsigned long long int's and also optimised part of the 'for' loop in the primeNumbers function.
+
+commit 016c607fb0093e80bf183dfb44dff868b91411c1
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 13:02:39 2018 +0000
+
+    Changed Makefile to include one basic variable - the flags that are used whilst compiling - to make it easier to read
+
+commit 9904539b497af6874a9f886c4173164384614092
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 12:52:10 2018 +0000
+
+    Function improved: changed the function to use lists, rather than vectors, as this is what the specification requires. It still uses 'iostream' to take in a value and display prime factorisation on the console, this needs to be removed.
+
+commit d69e72de2471351c67bde8a06da9c1ea522308a4
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 11:55:26 2018 +0000
+
+    Function improved: Removed redundant data, changed the function to take an unsigned long long int as input
+    rather than just a normal integer and changed/removed comments to make function more concise.
+
+commit ed88d2e8332157226f28003c2da72c474f2d3465
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 11:55:26 2018 +0000
+
+    Removed redundant data, changed the function to take an unsigned long long int as input rather than just a normal integer and changed/removed comments to make function more concise.
+
+commit e4f151fb7fed3270b3b8104df3b7f6d030f4fe5d
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Dec 4 11:43:44 2018 +0000
+
+    Initial implementation of prime factorisation function. Currently uses input/output for internal testing, it takes a number as input from the console and returns a vector of all prime factors to the console. Function is currently working for all tested real numbers except ones that are prime.
+
+commit 62a46223e923b49620a29f4f0b3c424125aacb2e
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Nov 27 12:51:54 2018 +0000
+
+    Created an initial Makefile which can successfully create both test programs for both the best student and reference implementations individually. It can also use 'make all' to create all four executables at once, or 'make clean' to remove all four exectuable files from the directory.
+
+commit 223285378b712654a33c498622c86f2ab1abd64a
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Nov 27 12:48:26 2018 +0000
+
+    Altered the correctness tests file to utilise the header file successfully and corrected the #include statement for the boost tests.
+
+commit e007ebfe9298488ac3ea98086c4de304453d6f7f
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Tue Nov 27 12:44:17 2018 +0000
+
+    Altering the timing test file to utilise the header file successfully.
+
+commit d60e12da9cf7c685a2bb721a43084f1ff5d135d5
+Author: Alex Brownlie <alex.brownlie2017@my.ntu.ac.uk>
+Date:   Thu Nov 22 18:16:37 2018 +0000
+
+    Deleted unzipped primeFactorisation file. No longer needed.
+
+commit c60cc9f069d181da25117fad1eb099b65acd0079
+Author: Alex Brownlie <n0724106@my.ntu.ac.uk>
+Date:   Thu Nov 22 17:32:35 2018 +0000
+
+    Unzipped the original factorisation file and then saved this. Removed the zipped file from the repository.
+
+commit db5d8f66ec8457e4563fa1bbfa903e8585721644
+Author: Alex Brownlie <alex.brownlie2017@my.ntu.ac.uk>
+Date:   Thu Nov 22 17:30:05 2018 +0000
+
+    Added primeFactorisation.zip file
